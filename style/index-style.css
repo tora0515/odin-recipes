@@ -11,6 +11,7 @@ body{
   background-image: url("../img/seamless-vector-pattern-elements-with-hand-drawn-kitchenware-chalkboard-background_624018-26.avif");
   background-repeat: repeat;
   font-size: 16px;
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
 h1{
@@ -60,7 +61,7 @@ a{
 
 .blurb{
   /*border: 1px solid black;*/
-  padding-left: 270px;
+  padding-left: 260px;
   margin-bottom: 75px;
 }
 
