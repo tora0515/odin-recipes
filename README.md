@@ -43,3 +43,16 @@ Needs Improvement:
   - I was having an issue with either:
     - The main container working like the index page but having inner div text spill outside of it; or
     - Having the main container height increase/decrease to fit the inner div text but have the top margin issue above.
+
+**Update 3**
+
+Finished the "Block and Inline" lesson. Updated the index.html sheet to include styles from the lesson.
+
+Positives:
+- Was able to reduce the number of css classes needed in the index tab.
+- Could use display: inline-block and inherit for some styles
+- Reduce duplication in original css file
+
+Needs Improvement:
+- Still relying on google for simple style commands.
+- Wasn't able to incorporate all new commands learned.
