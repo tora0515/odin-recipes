@@ -1,0 +1,88 @@
+/* *Index page styles */
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/seamless-vector-pattern-elements-with-hand-drawn-kitchenware-chalkboard-background_624018-26.avif");
+  background-repeat: repeat;
+  font-size: 16px;
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+html,
+body{
+  min-width: 600px;
+  height: 100%;
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+  width: 600px;
+  height: 800px;
+  border: 1px solid #BDB8AA;
+  background-color: #EAE2D5;
+  color: #282828;
+  padding: 15px 20px;
+}
+
+h1{
+  font-size: 48px;
+  width: 400px;
+  margin-top: 80px;
+  display: inline-block;
+}
+
+h2{
+  display: inline-block;
+  border: 2px solid #716e66;
+  border-radius: 50%;
+  width: fit-content;
+  padding: 15px  30px;
+  margin-bottom: 60px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+ }
+ 
+a:hover{
+  color: #716e66;
+}
+
+ul{
+  padding: 0px;
+}
+
+.blurb{
+  margin-left: 349px;
+  display: inline-block;
+}
+
+ul.recipe-list > li {
+  list-style: none;
+  border-bottom: 1px solid #BDB8AA;
+  width: 540px;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px 5px 0px;
+  font-size: 20px;  
+}
+
+.credits{
+  font-size: 14px;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
